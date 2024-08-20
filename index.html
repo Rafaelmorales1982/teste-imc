@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title> Programa Cáculo do Peso Ideal</title>
+</head>
+<body>
+    <img src="https://www.sbwc.com.br/wp-content/uploads/2012/07/o-uso-de-diarios-na-batalha-contra-a-balanca.jpg" alt="Balança de Peso">
+    <!--Título-->
+    <h1>Programa Cálculo do Peso Ideal</h1>
+    <!--Campo nome-->
+    <p>
+        Nome:
+        <input type="text" id="inNome">
+    </p>
+    <!--Campo Sexo-->
+    <p>
+        Sexo:
+        <input type="radio" name="sexo" id="rbMasculino"> Masculino
+        <input type="radio" name="sexo" id="rbFeminino"> Feminino
+    </p>
+    <!--Campo Altura-->
+    <p>
+        Altura:
+        <input type="text" id="inAltura">
+    </p>
+    <!--Botões Calcular e Limpar-->
+    <p>
+        <input  type="button" value="Calcular Peso Ideal" id="btCalcular">
+        <input type="button" value="Limpar Campos" id="limparCampos">
+       
+    </p>
+
+    <h3 id="outResposta"></h3>
+    <script src="./script.js"></script>
+</body>
+</html>
